@@ -1,0 +1,21 @@
+/* ---------- Defaul Rules ---------- */
+
+body {
+  background: blue;
+}
+
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	body {
+    background: red;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+  body {
+    background: green;
+  }
+
+}

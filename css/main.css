@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* CSS Document */
 
 html, body {
   margin: 0px;
@@ -56,9 +55,11 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
   header {
     background-color: #e3e3e3;
   }
@@ -73,17 +74,23 @@ footer {
 
   #column-3 {
     background-color: purple;
+    margin-left: 25%;
   }
 
   footer {
     background-color: #e3e3e3;
   }
-  
+  #wrapper {
+    background-color: #e3e3e3;
+  }
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.3%;
+  }
   header {
     background-color: #e3e3e3;
   }
@@ -98,6 +105,7 @@ footer {
 
   #column-3 {
     background-color: orangered;
+    margin: 0;
   }
 
   footer {
